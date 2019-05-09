@@ -1,0 +1,32 @@
+{
+  "name": "colombodevdesign.github.io",
+  "version": "1.0.0",
+  "description": "sito personale di Colombo Valerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colombodevdesign/colombodevdesign.github.io.git"
+  },
+  "author": "colombodevdesign@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colombodevdesign/colombodevdesign.github.io/issues"
+  },
+  "homepage": "https://github.com/colombodevdesign/colombodevdesign.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.3",
+    "del": "^4.1.0",
+    "gsap": "^2.1.2",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
+    "scrollmagic": "^2.0.6"
+  }
+}

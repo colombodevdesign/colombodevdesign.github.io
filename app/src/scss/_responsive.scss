@@ -1,0 +1,43 @@
+@media (max-width: 767px){
+    body{        
+        background-image: linear-gradient(to bottom right, #fff 37%, #4d4def);
+        .sfera{
+            &.sfera-2 {
+                left: -10%;
+                width: 100vw;
+            }
+            &.sfera-3 {
+                bottom: 55%;
+                left: 8%;
+                width: 60vw;
+            }
+            &.sfera-1 {
+                bottom: 0;
+                right: -70%;
+                width: 150vw;
+            }
+        }
+        .popover_wrp{
+            .popover_cnt{
+                transform: translate(-50%, 102%);
+                width: 60vw;
+                padding: 3vw;
+                bottom: 0;
+                top: auto;
+                &:after{
+                    top: -14px;
+                    bottom: auto;
+                    border-width: 0 15px 15px 15px;
+                    border-color: transparent transparent #ffffff transparent;
+                }
+                .popover_msg{
+                    margin-top: 3vw;
+                    margin-bottom: 1vw;
+                }
+            }
+            a .loader {
+                height: 26vw;
+            }
+        }
+    }
+}
